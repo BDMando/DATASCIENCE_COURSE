@@ -18,7 +18,7 @@ sig1 = sinusoidf(timeVec,10*sqrt(nSamples/2),100,0);
 sig2 = sinusoidf(timeVec,5*sqrt(nSamples/2),200,pi/6);
 sig3 = sinusoidf(timeVec,2.5*sqrt(nSamples/2),300,pi/4);
 
-inputSig = sig1 + sig2 + sig3;l
+inputSig = sig1 + sig2 + sig3;
 
 %% Design filters
 % fir1 frequencies are normalized by fs/2 = 512 Hz.
